@@ -1,0 +1,100 @@
+
+.userButtons {	
+  font-size: 90%;
+  font-family: Arial;
+}
+
+.mainQuestion {
+    font-size: 110%;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.basic{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.headRef {
+	font-size: 60%;
+	padding-left: 10px;
+}
+
+.subheader {
+	margin-left: 30px;
+}
+
+.link {
+	color: #440381;
+}
+
+.subheader h1 {
+	color: #242729;
+    font-size: 24px;
+    line-height: 2.22
+}
+
+.question {
+	background: #e7fae7;
+	margin-left: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.logForms {
+    width: 50%;
+}
+
+.forms {
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.questionTitle {
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 130%;
+}
+
+.questionContainer {
+	margin-bottom: 15px;
+	padding-right: 15px;
+}
+
+.tags {
+    color: darkgreen;
+}
+
+.listing {
+    padding: 0.5rem 1.0rem;
+    border: 0px;
+    color: darkgreen;
+}
+
+.user {
+    color: white;
+    font-size: 80%;
+    padding-right: 5px;
+}
+
+.answerForm {
+    margin-left: 25px;
+}
+
+.footer {
+    color: gray;
+    text-align: center;
+    padding-left: 15px;
+    border-top: 2px solid;
+    border-top-color: darkseagreen;
+    margin-top: 20px;
+    /*position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;*/
+}
