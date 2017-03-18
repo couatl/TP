@@ -10,17 +10,15 @@
     <!-- <link rel="stylesheet" href="../static/octicons/build/font/octicons.css"> -->
     <link rel="stylesheet" href="../static/octicons/lib/octicons.css">
   </head>
-
   <body>
-        <nav class="navbar navbar-toggleable-md navbar-inverse" style="background-color: #5cb85c;">
-        <!-- LOGO -->
-        <a class="navbar-brand" href="#">AskSvoykina</a>
-
+    <nav class="navbar navbar-toggleable-md navbar-inverse" style="background-color: #5cb85c;">
+      <!-- LOGO -->
+      <a class="navbar-brand" href="#">AskSvoykina</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- <ul class="navbar-nav mr-auto"> -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link disabled" href="#"> ASK </a>
+            <a class="nav-link disabled" href="./ask.html"> ASK </a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -28,76 +26,69 @@
           <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
-                   <ul class="navbar-nav">
-          <li class="nav-item">
-            <button type="submit" class="btn btn-success" href="#">Login</button>
-          </li>
-        </ul>
-
-       <ul class="navbar-nav">
-          <li class="nav-item">
-            <button type="submit" class="btn btn-success" href="#">Register</button>
-          </li>
-        </ul>
-      </nav>
-      
-      <div id="mainbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <button type="submit" class="btn btn-success" href="./login.html">Login</button>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <button type="submit" class="btn btn-success" href="./register">Register</button>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainbar">
       <div class="row">
-          <!--CONTENT-->
+        <!--CONTENT-->
         <div class="col-md-9">
-            <div class="subheader">
+          <div class="subheader">
             <h1>New Question</h1>
+          </div>
+          <form class="forms">
+            <div class="form-group row">
+              <label for="titleInput" class="col-sm-1 col-form-label">Title</label>
+              <div class="col-sm-11">
+                <input type="title" class="form-control" id="titleInput" placeholder="Be specific">
+              </div>
             </div>
-                <form class="forms">
-                  <div class="form-group row">
-                    <label for="titleInput" class="col-sm-1 col-form-label">Title</label>
-                      <div class="col-sm-11">
-                      <input type="title" class="form-control" id="titleInput" placeholder="Be specific">
-                      </div>
-                  </div>
-                  <div class="form-group row">
-                      <label for="TextInput" class="col-sm-1 col-form-label">Text</label>
-                      <div class="col-sm-11">
-                          <textarea type="title" class="form-control" id="TextInput" placeholder="Tell us about your problem" rows="12"></textarea>
-                      </div>
-                  </div>
-                  <div class="form-group row">
-                      <label for="TagsInput" class="col-sm-1 col-form-label">Tags</label>
-                      <div class="col-sm-11">
-                      <input type="title" class="form-control" id="TagsInput" placeholder="at least 1 tag">
-                      </div>
-                  </div>
-                    <div style="margin-left: 100px;">
-            <input class="btn btn-success" type="submit" value="Ask!"></button>
+            <div class="form-group row">
+              <label for="TextInput" class="col-sm-1 col-form-label">Text</label>
+              <div class="col-sm-11">
+                <textarea type="title" class="form-control" id="TextInput" placeholder="Tell us about your problem" rows="12"></textarea>
+              </div>
             </div>
-                </form> 
-            
+            <div class="form-group row">
+              <label for="TagsInput" class="col-sm-1 col-form-label">Tags</label>
+              <div class="col-sm-11">
+                <input type="title" class="form-control" id="TagsInput" placeholder="at least 1 tag">
+              </div>
+            </div>
+            <div style="margin-left: 100px;">
+              <input class="btn btn-success" type="submit" value="Ask!"></button>
+            </div>
+          </form>
         </div>
-          
-                <div class="col-md-3 basic">
-                <fieldset>
-                  <legend class="bot">Popular Tags</legend>
-                  <a href="./tags/latin" class="tags">latin</a>
-                  <a href="./tags/python" class="tags">python</a>
-                  <a href="./tags/c++" class="tags">c++</a>
-               </fieldset>
-                  <div class="list-group basic" style="width: 80%">
-                <legend class="bot">Best members</legend>
-                  <a href="#" class="list-group-item list-group-item-action listing">
-                    Memberberry1
-                  </a>
-                  <a href="#" class="list-group-item list-group-item-action listing">Memberberry I member</a>
-                  <a href="#" class="list-group-item list-group-item-action listing">Member remember berry</a>
-                  <a href="#" class="list-group-item list-group-item-action listing">MemberBerry100500</a>
-                </div>
-                    
-                </div>
-          
-
+        <div class="col-md-3 basic">
+          <fieldset>
+            <legend class="bot">Popular Tags</legend>
+            <a href="./tags/latin" class="tags">latin</a>
+            <a href="./tags/python" class="tags">python</a>
+            <a href="./tags/c++" class="tags">c++</a>
+          </fieldset>
+          <div class="list-group basic" style="width: 80%">
+            <legend class="bot">Best members</legend>
+            <a href="#" class="list-group-item list-group-item-action listing">
+            Memberberry1
+            </a>
+            <a href="#" class="list-group-item list-group-item-action listing">Memberberry I member</a>
+            <a href="#" class="list-group-item list-group-item-action listing">Member remember berry</a>
+            <a href="#" class="list-group-item list-group-item-action listing">MemberBerry100500</a>
+          </div>
         </div>
       </div>
-      <footer class="footer">
+    </div>
+    <footer class="footer">
       All rights reserved © 2017
-      </footer>
+    </footer>
   </body>
 </html>

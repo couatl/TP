@@ -10,18 +10,15 @@
     <!-- <link rel="stylesheet" href="../static/octicons/build/font/octicons.css"> -->
     <link rel="stylesheet" href="../static/octicons/lib/octicons.css">
   </head>
-
   <body>
-      
-        <nav class="navbar navbar-toggleable-md navbar-inverse" style="background-color: #5cb85c;">
-        <!-- LOGO -->
-        <a class="navbar-brand" href="#">AskSvoykina</a>
-
+    <nav class="navbar navbar-toggleable-md navbar-inverse" style="background-color: #5cb85c;">
+      <!-- LOGO -->
+      <a class="navbar-brand" href="#">AskSvoykina</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- <ul class="navbar-nav mr-auto"> -->
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link disabled" href="#"> ASK </a>
+            <a class="nav-link disabled" href="./ask.html"> ASK </a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -29,89 +26,77 @@
           <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
-                            <ul class="navbar-nav">
-          <li class="nav-item" style="margin-right: 25px;">
-              <img src="../static/octicons/build/svg/octoface.svg" style="height: 50px; "> </img>
-          </li>
-          <li class="nav-item" style="width: 140px;">
-                User
-                <br><a href="./settings" class="user">Settings</a>
-              <a href="./" class="user">Log out</a>
-                    </br>
-              </div>
-          </li>
-      </nav>
-      
-      <div id="mainbar">
-      <div class="row">
-          <!--CONTENT-->
-        <div class="col-md-9">
-            
-            <div class="subheader">
-            <h1>Settings</h1>
-            </div>
-            
-                <form class="forms">
-                  <div class="form-group row">
-                    <label for="LoginInput" class="col-sm-2 col-form-label">Login</label>
-                      <div class="col-sm-10">
-                      <input type="login" class="form-control logForms form-control" id="LoginInput">
-                  </div>
-                    </div>
-                    <div class="form-group row">
-                    <label for="EmailInput" class="col-sm-2 col-form-label">Email</label>
-                      <div class="col-sm-10">
-                      <input type="login" class="form-control logForms form-control" id="EmailInput">
-                          </div>
-                  </div>
-                      
-                      <div class="form-group row">
-                    <label for="NickNameInput" class="col-sm-2 col-form-label">NickName</label>
-                      <div class="col-sm-10">
-                      <input type="login" class="form-control logForms form-control" id="NickNameInput" placeholder="Think wisely">
-                          </div>
-                  </div>
-                      
-                    <div class="form-group row">
-    <label for="exampleInputFile" class="col-sm-2 col-form-label">Upload avatar</label>
-                          <div class="col-sm-10">
-                              <img src="../static/avatar.png" class="basic"></img>
-                          <br><input type="file" class="form-control-file logForms" id="exampleInputFile" aria-describedby="fileHelp"></br>
-                          </div>
-                </div>
-                      
-                
-            <div style="margin-left: 160px;">
-            <button class="btn btn-success">Save</button>
-                      </div>
-            </form>
+      <ul class="navbar-nav">
+      <li class="nav-item" style="margin-right: 25px;">
+        <img src="../static/octicons/build/svg/octoface.svg" style="height: 50px; "> </img>
+      </li>
+      <li class="nav-item" style="width: 140px;">
+        User
+        <br><a href="./settings.html" class="user">Settings</a>
+        <a href="./base.html" class="user">Log out</a>
+        </br>
         </div>
-          
-                <div class="col-md-3 basic">
-                <fieldset>
-                  <legend class="bot">Popular Tags</legend>
-                  <a href="./tags/latin" class="tags">latin</a>
-                  <a href="./tags/python" class="tags">python</a>
-                  <a href="./tags/c++" class="tags">c++</a>
-               </fieldset>
-                  <div class="list-group basic" style="width: 80%">
-                <legend class="bot">Best members</legend>
-                  <a href="#" class="list-group-item list-group-item-action listing">
-                    Memberberry1
-                  </a>
-                  <a href="#" class="list-group-item list-group-item-action listing">Memberberry I member</a>
-                  <a href="#" class="list-group-item list-group-item-action listing">Member remember berry</a>
-                  <a href="#" class="list-group-item list-group-item-action listing">MemberBerry100500</a>
-                </div>
-                    
-                </div>
-          
-
+      </li>
+    </nav>
+    <div id="mainbar">
+      <div class="row">
+        <!--CONTENT-->
+        <div class="col-md-9">
+          <div class="subheader">
+            <h1>Settings</h1>
+          </div>
+          <form class="forms">
+            <div class="form-group row">
+              <label for="LoginInput" class="col-sm-2 col-form-label">Login</label>
+              <div class="col-sm-10">
+                <input type="login" class="form-control logForms form-control" id="LoginInput">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="EmailInput" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="login" class="form-control logForms form-control" id="EmailInput">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="NickNameInput" class="col-sm-2 col-form-label">NickName</label>
+              <div class="col-sm-10">
+                <input type="login" class="form-control logForms form-control" id="NickNameInput" placeholder="Think wisely">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="exampleInputFile" class="col-sm-2 col-form-label">Upload avatar</label>
+              <div class="col-sm-10">
+                <img src="../static/avatar.png" class="basic"></img>
+                <br><input type="file" class="form-control-file logForms" id="exampleInputFile" aria-describedby="fileHelp"></br>
+              </div>
+            </div>
+            <div style="margin-left: 160px;">
+              <button class="btn btn-success">Save</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-3 basic">
+          <fieldset>
+            <legend class="bot">Popular Tags</legend>
+            <a href="./tags/latin" class="tags">latin</a>
+            <a href="./tags/python" class="tags">python</a>
+            <a href="./tags/c++" class="tags">c++</a>
+          </fieldset>
+          <div class="list-group basic" style="width: 80%">
+            <legend class="bot">Best members</legend>
+            <a href="#" class="list-group-item list-group-item-action listing">
+            Memberberry1
+            </a>
+            <a href="#" class="list-group-item list-group-item-action listing">Memberberry I member</a>
+            <a href="#" class="list-group-item list-group-item-action listing">Member remember berry</a>
+            <a href="#" class="list-group-item list-group-item-action listing">MemberBerry100500</a>
+          </div>
         </div>
       </div>
-      
-   <footer class="footer">
+    </div>
+    <footer class="footer">
       All rights reserved © 2017
-      </footer>   
+    </footer>
   </body>
 </html>
